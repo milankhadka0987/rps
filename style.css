@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: antiquewhite !important;
 }
 
 h1{
@@ -11,7 +12,6 @@ h2{
     font-family: Harrington;
     font-weight: bold;
     padding: 5px;
-    color: blueviolet !important;
 }
 
 .mid{

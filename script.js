@@ -23,6 +23,7 @@ const randomClasses = [rockIcon, paperIcon, scissorsIcon];
 const game = () => {
     buttons.forEach(btn => {
         btn.addEventListener('click', (e) => {
+
             // Random rock paper scissor for the computer and clicked ones for the player
             let clickedBtn = e.target.id;
             showIcon.className = getIconClass(clickedBtn);
@@ -33,7 +34,7 @@ const game = () => {
             if (showIcon.className === computerShowIcon.className) {
                 tieScore++;
                 text.innerHTML = "It's a Tie!";
-                text.style.color = 'orange';
+                text.style.color = 'blueviolet';
             }
             // If it's not a Tie.
             else if (
